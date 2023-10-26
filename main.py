@@ -61,4 +61,4 @@ if students:
     final_score = Decimal(total_score / len(students)).quantize(Decimal('0.01'))
     print('Середній бал групи', final_score)
 
-print (students)
+pprint(students)
